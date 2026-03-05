@@ -1,3 +1,8 @@
+jetson-gpio (2.1.13-0ubuntu1) noble; urgency=medium
+
+  * Update tegra264-gpio-main to tegra264-gpio
+
+ -- Hiteshkumar Patel <hiteshkumarg@nvidia.com> Thu, 5 March 2026 10:17:00 -0700
 
 jetson-gpio (2.1.12-0ubuntu1) noble; urgency=medium
 
