@@ -2,6 +2,20 @@ jetson-gpio (2.1.13-0ubuntu1) noble; urgency=medium
 
   * Update tegra264-gpio-main to tegra264-gpio
 
+  * Add support for Jetson Orin Nano Super variant
+
+  * Add support for Jetson Orin Nano "Super" developer kit variants that
+    include the "-super" suffix in their device tree compatible string.
+
+   The Super variants report compatible strings like:
+   - nvidia,p3509-0000+p3767-0003-super
+   - nvidia,p3509-0000+p3767-0004-super
+   - nvidia,p3509-0000+p3767-0005-super
+
+   This fix enables GPIO library functionality for these newer hardware
+   variants by adding the Super-suffixed compatible strings to the
+   device recognition lists
+
  -- Hiteshkumar Patel <hiteshkumarg@nvidia.com> Thu, 5 March 2026 10:17:00 -0700
 
 jetson-gpio (2.1.12-0ubuntu1) noble; urgency=medium
